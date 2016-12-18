@@ -43,7 +43,6 @@ const createEventData = (event, data) => `event:${event}\ndata:${data}\n\n`;
 
 app.get('/chat', (req, res) => {
     var nickname = req.query.nickname;
-    req.nickname = nickname;
     console.log(`${nickname} connected`);
     let nullIndex = connections.indexOf(null);
     let connectionIndex = nullIndex !== -1 ? nullIndex : connections.length;
@@ -68,7 +67,7 @@ app.get('/sw.js', (req, res) => {
     console.log('sw.js');
     res.setHeader('content-type', 'application/javascript');
     res.sendFile(path.resolve(`${publicPath}/../sw.js`));
-})
+});
 
 app.get('*', (req, res) => {
     res.sendFile(`${publicPath}/index.html`);
