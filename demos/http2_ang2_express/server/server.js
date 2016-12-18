@@ -54,7 +54,7 @@ app.get('/chat', (req, res) => {
 
     res.setHeader('content-type', 'text/event-stream');
     connections.push(res);
-    res.write(createEventData('connected', JSON.stringify({ nickname: req.nickname })));
+    res.write(createEventData('connected', JSON.stringify({ nickname: nickname })));
 });
 
 app.post('/message', (req, res) => {
