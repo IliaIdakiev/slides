@@ -1,0 +1,23 @@
+<h1>
+  {{title}}
+</h1>
+<nav>
+  <a routerLink="/home" routerLinkActive="active">Home</a>
+  <a routerLink="/about" routerLinkActive="active">About</a>
+</nav>
+<router-outlet></router-outlet>
+
+<div *ngIf="!isConnected">
+  <input type="text" [(ngModel)]="nickname">
+  <button (click)="connect()">Connect</button>
+</div>
+<div *ngIf="isConnected">
+  <input type="text" [(ngModel)]="message">
+  <button (click)="sendData()">Send</button>
+</div>
+
+<div>
+  <div *ngFor="let msg of conversation">
+    <div *ngIf="msg.type === MessageType.Text">{{msg.content}}</div>
+  </div>
+</div>
