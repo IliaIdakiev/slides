@@ -6,3 +6,4 @@
 | 16.12.2016 | Beer.js Christmas Party | Ahead Of Time - Angular 2 Over Http 2 (LT) | [View](http://slides.com/idakiev/deck-2) | [Click here](https://github.com/IliaIdakiev/slides/tree/master/demos/http2_ang2_express)
 | 23.02.2017 | Angular Sofia | Predictable Reactive State Management for Angular 2 - NGRX | [View](https://www.slideshare.net/IliaIdakiev/predictable-reactive-state-management-ngrx) | [Click here](https://github.com/IliaIdakiev/slides/tree/master/demos/ngrxSimpleTodo)
 
+
