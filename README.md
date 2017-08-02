@@ -1,4 +1,4 @@
-# My Slides
+# Past and Future Events | Slides | Demos
 
 | Date       | Event | Title | Slides | Demo |
 |:-----------|:-----------|:------------|:------------|:------------|
