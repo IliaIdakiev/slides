@@ -8,6 +8,6 @@
 | 26.03.2017 | [Angular @ HackBulgaria](https://www.facebook.com/events/1050560771715557/) | Angular 2048 Workshop | --- | [View](https://github.com/IliaIdakiev/NG_2048_workshop) / [Play](https://iliaidakiev.github.io/NG_2048_workshop/)
 | 24.04.2017 | [April 2017 Beer.js Meetup](https://www.facebook.com/events/715714965296856/) | zone.js | [View](https://www.slideshare.net/IliaIdakiev/zonejs) | [Click here](https://github.com/IliaIdakiev/slides/tree/master/demos/node-zones)
 | 25.05.2017 | [DEVBG](https://www.facebook.com/events/216832172139638/) | Reflective Injection using TypeScript | [View](https://www.slideshare.net/IliaIdakiev/reflective-injection-using-typescript) | [Slide demos](https://github.com/IliaIdakiev/slides/tree/master/demos/reflective-dependency-injection) / [Framework example](https://github.com/IliaIdakiev/node-express-zone-di)
-| 16.09.2017 | HackSoft Conf | Introduction to Offline Progressive Apps | [View](https://www.slideshare.net/IliaIdakiev/introduction-to-offline-progressive-web-applications) | ---
+| 16.09.2017 | HackSoft Conf | Introduction to Offline Progressive Web Apps | [View](https://www.slideshare.net/IliaIdakiev/introduction-to-offline-progressive-web-applications) | ---
 | 29.09.2017 | [HackConf](https://hackconf.bg/en/) | Offline Progressive Web Apps (PWA) Workshop | Coming Soon | Coming Soon
 | 18.11.2017 | [JSTALKS](http://jstalks.net) | Angular Server Side Rendering (using NodeJS) | Coming Soon |[Base Project](https://github.com/IliaIdakiev/angular-cli-ssr) / Demo - Coming soon
