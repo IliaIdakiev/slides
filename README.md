@@ -10,5 +10,5 @@
 | 25.05.2017 | [DEVBG](https://www.facebook.com/events/216832172139638/) | Reflective Injection using TypeScript | [View](https://www.slideshare.net/IliaIdakiev/reflective-injection-using-typescript) | [Slide demos](https://github.com/IliaIdakiev/slides/tree/master/demos/reflective-dependency-injection) / [Framework example](https://github.com/IliaIdakiev/node-express-zone-di)
 | 16.09.2017 | HackSoft Conf | Introduction to Offline Progressive Web Apps | [View](https://www.slideshare.net/IliaIdakiev/introduction-to-offline-progressive-web-applications) | ---
 | 29.09.2017 | [HackConf](https://hackconf.bg/en/) | Offline Progressive Web Apps (PWA) Workshop | Coming Soon | Coming Soon
-| --.10.2017 | [Angular Sofia](#) | Offline Progressive Web Apps with Angular & Node | Coming Soon | Coming Soon
+| 23.10.2017 | [Angular Sofia](#) | Offline Progressive Web Apps with Angular & Node | Coming Soon | Coming Soon
 | 18.11.2017 | [JSTALKS](http://jstalks.net) | Angular Server Side Rendering (using NodeJS) | Coming Soon |[Base Project](https://github.com/IliaIdakiev/angular-cli-ssr) / Demo - Coming soon
