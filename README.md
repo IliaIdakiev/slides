@@ -11,5 +11,5 @@
 | 16.09.2017 | HackSoft Conf | Introduction to Offline Progressive Web Apps | [View](https://www.slideshare.net/IliaIdakiev/introduction-to-offline-progressive-web-applications) | ---
 | 29.09.2017 | [HackConf](https://hackconf.bg/en/) | Offline Progressive Web Apps (PWA) Workshop | [View](https://www.slideshare.net/IliaIdakiev/angular-offline-progressive-web-apps-with-nodejs) | ---
 | 23.10.2017 | [Angular Sofia](https://www.facebook.com/events/1986289258278607/) | Offline Progressive Web Apps with Angular & Node | [View](https://www.slideshare.net/IliaIdakiev/angular-offline-progressive-web-apps-with-nodejs) | ---
-| 18.11.2017 | [JSTALKS](http://jstalks.net) | Angular Server Side Rendering (using NodeJS) | Coming Soon |[Base Project](https://github.com/IliaIdakiev/angular-cli-ssr) / ---
+| 18.11.2017 | [JSTALKS](http://jstalks.net) | Angular Server Side Rendering (using NodeJS) | [View](https://www.slideshare.net/IliaIdakiev/angular-server-side-rendering-with-nodejs-in-pursuit-of-speed) |[Base Project](https://github.com/IliaIdakiev/angular-cli-ssr) / [Angular CD with Zones Demo](https://github.com/IliaIdakiev/slides/tree/master/demos/zones)
 | 01.12.2017 - 02.12.2017 | [hack-ng](https://www.facebook.com/events/1929696537285128/) | Predictable reactive state management for enterprise apps using NGRX/platform | Coming Soon | Coming Soon
