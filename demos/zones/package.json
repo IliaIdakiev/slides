@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "zone.js": "^0.8.18"
+  }
+}
