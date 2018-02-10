@@ -15,5 +15,5 @@
 | 01.12.2017 - 02.12.2017 | [hack-ng](https://www.facebook.com/events/1929696537285128/) | Predictable reactive state management for enterprise apps using NGRX/platform | [View](https://www.slideshare.net/IliaIdakiev/predictable-reactive-state-management-for-enterprise-apps-using-ngrxplatform) | [Click here](https://github.com/IliaIdakiev/slides/tree/master/demos/ngrx-platform)
 | 20.12.2017 | [BeerJS Christmas Edition!](https://www.facebook.com/events/1776995529009589/) | Angular RxJS Marble Testing | [Click here](https://www.slideshare.net/IliaIdakiev/testing-rx-js-using-marbles-within-angular) | -
 | __15.02.2018__ | __[Reactive vs Template-driven Angular Forms](https://www.facebook.com/events/1846500318693326/)__ | __Reactive vs Template-driven Angular Forms__ | Coming Soon | Coming Soon
-| __21.02.2018__ | __[React Sofia Meetup](https://www.facebook.com/events/1980931295503135/)__ | __Building a React Progressive Web App__ | Coming Soon | Coming Soon
+| __20.02.2018__ | __[React Sofia Meetup](https://www.facebook.com/events/1980931295503135/)__ | __Building a React Progressive Web App__ | Coming Soon | Coming Soon
 | __??.03.2018__ | __Angular Sofia Meetup__ | __Predictable reactive state management for enterprise apps using NGRX/platform__ | Coming Soon | Coming Soon
