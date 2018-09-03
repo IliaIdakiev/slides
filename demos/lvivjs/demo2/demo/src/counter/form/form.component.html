@@ -1,0 +1,13 @@
+<form #form="ngForm">
+  <div>
+    <input #email="ngModel" type="email" ngModel name="email" required email>
+    <div *ngIf="email.invalid && !email.pristine">Please enter a valid email</div>
+  </div>
+  <div>
+    <input #firstName="ngModel" type="text" ngModel name="firstName" required>
+    <div *ngIf="firstName.invalid && !firstName.pristine">firstName is required</div>
+  </div>
+  <div>
+    <button [disabled]="form.invalid">Submit</button>
+  </div>
+</form>
