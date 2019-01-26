@@ -21,5 +21,6 @@
 | 17.11.2018 | [JSTalks](http://www.jstalks.net/) | Web Components Everywhere | [View](https://www.slideshare.net/IliaIdakiev/web-components-everywhere) | [Click here](https://github.com/IliaIdakiev/slides/tree/master/demos/lvivjs)
 | 11.12.2018 | [NgChristmas()](https://www.facebook.com/events/360632701423276/)| Custom Angular Transports (Quick Overview) | Coming Soon | Comming Soon
 | 22.01.2019 | [BeerJS January 2019](https://www.facebook.com/events/268781570483569/)| Deterministic JavaScript Applications | [Click here](https://www.slideshare.net/IliaIdakiev/deterministic-javascript-applications) | [View](https://github.com/IliaIdakiev/slides/tree/master/demos/deterministic_js_apps/react)
-| 29.01.2019 | [Web Components Workshop](https://www.facebook.com/events/388067858419669/) | Web Components Workshop | Coming Soon | Comming Soon
+| 29.01.2019 | [Web Components Workshop](https://www.facebook.com/events/388067858419669/) | Web Components Workshop | [Click here](https://www.slideshare.net/IliaIdakiev/web-components-everywhere) | [View](https://github.com/IliaIdakiev/webcomponents-workshop-01)
 | 06.02.2019 | [ngHouston](https://www.meetup.com/ngHouston/) | Custom Angular Transports | Coming Soon | Comming Soon
+| 16.02.2019 | [Angular Sofia Bootcamp](#) | Angular Sofia Bootcamp | Coming Soon | Comming Soon
