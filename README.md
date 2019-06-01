@@ -26,4 +26,4 @@
 | 16.02.2019 | [Angular Sofia Boot Camp](https://www.facebook.com/events/369252597141514/) | Angular Sofia Boot Camp | - | [Click here](https://github.com/IliaIdakiev/boot-camp-01)
 | 27.02.2019 | [February 2019 Beer.js](https://www.facebook.com/events/382340592593401/) | Web Apps Best Practices Unplugged Q & A | - | -
 | 12.05.2019 | [Angular Sofia Boot Camp 2](https://www.facebook.com/events/347615352777322/) | Angular Sofia Boot Camp 2 | - | [Click here](https://github.com/IliaIdakiev/boot-camp-02)
-| 11.06.2019 | [Angulaer Sofia](https://www.facebook.com/events/2374333362847756/) | Developing Deterministic User Interfaces | Coming Soon | Coming Soon)
+| 11.06.2019 | [Angulaer Sofia](https://www.facebook.com/events/2374333362847756/) | Developing Deterministic User Interfaces | Coming Soon | Coming Soon
