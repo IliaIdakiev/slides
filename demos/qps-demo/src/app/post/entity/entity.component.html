@@ -1,0 +1,26 @@
+<h2 mat-dialog-title>
+  <ng-template #add>New Post</ng-template>
+  <ng-template #edit>Edit Post</ng-template>
+  <ng-content *ngIf="(post$ | async).id then edit; else add;"></ng-content>
+</h2>
+<div mat-dialog-content>
+  <form>
+    <input type="hidden" name="id" [ngModel]="(post$ | async).id">
+    <input type="hidden" name="userId" [ngModel]="(post$ | async).userId">
+    <div class="form-group">
+      <mat-form-field>
+        <input matInput name="title" placeholder="Title" [ngModel]="(post$ | async).title" name="title">
+      </mat-form-field>
+    </div>
+    <div class="form-group">
+      <mat-form-field>
+        <textarea matInput name="body" placeholder="Description" [ngModel]="(post$ | async).body"
+          name="body"></textarea>
+      </mat-form-field>
+    </div>
+  </form>
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="cancelHandler()">Cancel</button>
+  <button mat-button (click)="saveHandler()" cdkFocusInitial>Save</button>
+</div>
