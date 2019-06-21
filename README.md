@@ -27,4 +27,6 @@
 | 27.02.2019 | [February 2019 Beer.js](https://www.facebook.com/events/382340592593401/) | Web Apps Best Practices Unplugged Q & A | - | -
 | 12.05.2019 | [Angular Sofia Boot Camp 2](https://www.facebook.com/events/347615352777322/) | Angular Sofia Boot Camp 2 | - | [Click here](https://github.com/IliaIdakiev/boot-camp-02)
 | 11.06.2019 | [Angular Sofia](https://www.facebook.com/events/2374333362847756/) | Developing Deterministic User Interfaces | [View](https://github.com/IliaIdakiev/query-param-store) | [Click here](https://github.com/IliaIdakiev/slides/tree/master/demos/qps-demo)
-| 20.06.2019 | [BeerJS June](https://www.facebook.com/events/375363756427502/) | Testing RxJS streams using marble diagrams | Coming Soon | Coming Soon 
+| 20.06.2019 | [BeerJS June](https://www.facebook.com/events/375363756427502/) | Testing RxJS streams using marble diagrams | [View](https://www.slideshare.net/IliaIdakiev/marble-testing-rxjs-streams) | [Click here](https://github.com/IliaIdakiev/slides/tree/master/demos/jasmine-marbles)
+| 15.07.2019 | DEVBG | Creating lightweight JS Apps w/ Web Components and lit-html | Coming Soon | Coming Soon 
+| 01.08.2019 | BeerJS Summit | RxJS Schedulers | Coming Soon | Coming Soon
