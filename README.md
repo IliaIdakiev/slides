@@ -28,5 +28,7 @@
 | 12.05.2019 | [Angular Sofia Boot Camp 2](https://www.facebook.com/events/347615352777322/) | Angular Sofia Boot Camp 2 | - | [Click here](https://github.com/IliaIdakiev/boot-camp-02)
 | 11.06.2019 | [Angular Sofia](https://www.facebook.com/events/2374333362847756/) | Developing Deterministic User Interfaces | [View](https://github.com/IliaIdakiev/query-param-store) | [Click here](https://github.com/IliaIdakiev/slides/tree/master/demos/qps-demo)
 | 20.06.2019 | [BeerJS June](https://www.facebook.com/events/375363756427502/) | Testing RxJS streams using marble diagrams | [View](https://www.slideshare.net/IliaIdakiev/marble-testing-rxjs-streams) | [Click here](https://github.com/IliaIdakiev/slides/tree/master/demos/jasmine-marbles)
+| 04.07.2019 | [Tech Talks](https://www.facebook.com/events/390193441614238/) | No More Promises. Let's RxJS. | Coming Soon | Coming Soon
 | 15.07.2019 | DEVBG | Creating lightweight JS Apps w/ Web Components and lit-html | Coming Soon | Coming Soon 
-| 01.08.2019 | BeerJS Summit | RxJS Schedulers | Coming Soon | Coming Soon
+| 01.08.2019 | [BeerJS Summit](https://www.facebook.com/events/335809237260372/) | RxJS Schedulers | Coming Soon | Coming Soon
+| 25.09.2019 | [Angular Air](https://angularair.com/) | Persistent State Management using Query Params | Coming Soon | Coming Soon
