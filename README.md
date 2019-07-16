@@ -22,7 +22,7 @@
 | 11.12.2018 | [NgChristmas()](https://www.facebook.com/events/360632701423276/)| Custom Angular Transports (Quick Overview) | - | [Click here](https://github.com/IliaIdakiev/ng-transport)
 | 22.01.2019 | [BeerJS January 2019](https://www.facebook.com/events/268781570483569/)| Deterministic JavaScript Applications | [View](https://www.slideshare.net/IliaIdakiev/deterministic-javascript-applications) | [Click here](https://github.com/IliaIdakiev/slides/tree/master/demos/deterministic_js_apps/react)
 | 29.01.2019 | [Web Components Workshop](https://www.facebook.com/events/388067858419669/) | Web Components Workshop | [View](https://www.slideshare.net/IliaIdakiev/web-components-everywhere) | [Click here](https://github.com/IliaIdakiev/webcomponents-workshop-01)
-| 06.02.2019 | [ngHouston](https://www.meetup.com/ngHouston/) | Custom Angular Transports | - | [Click here](https://github.com/IliaIdakiev/ng-transport)
+| 06.02.2019 | [ngHouston](https://www.meetup.com/ngHouston/) | Custom Angular Transports | [Watch](https://www.youtube.com/watch?v=wmDwue-m1rY) | [Click here](https://github.com/IliaIdakiev/ng-transport)
 | 16.02.2019 | [Angular Sofia Boot Camp](https://www.facebook.com/events/369252597141514/) | Angular Sofia Boot Camp | - | [Click here](https://github.com/IliaIdakiev/boot-camp-01)
 | 27.02.2019 | [February 2019 Beer.js](https://www.facebook.com/events/382340592593401/) | Web Apps Best Practices Unplugged Q & A | - | -
 | 12.05.2019 | [Angular Sofia Boot Camp 2](https://www.facebook.com/events/347615352777322/) | Angular Sofia Boot Camp 2 | - | [Click here](https://github.com/IliaIdakiev/boot-camp-02)
