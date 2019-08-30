@@ -32,4 +32,4 @@
 | 15.07.2019 | [DEVBG](https://www.facebook.com/events/351638688887533/) | Creating lightweight JS Apps w/ Web Components and lit-html | [View](https://www.slideshare.net/IliaIdakiev/creating-lightweight-js-apps-w-web-components-and-lithtml) | [Click here](https://github.com/IliaIdakiev/slides/tree/master/demos/lit-html)
 | 01.08.2019 | [BeerJS Summit](https://www.facebook.com/events/335809237260372/) | RxJS Schedulers | [View](https://www.slideshare.net/IliaIdakiev/rxjs-schedulers-controlling-time) | [Click here](https://github.com/IliaIdakiev/slides/tree/master/demos/rxjs_schedulers)
 | 25.09.2019 | [Angular Air](https://angularair.com/) | Persistent State Management using Query Params | Coming Soon | Coming Soon
-| 05.10.2019 | [DevFestSofia](https://devfest.bg/) | Deep dive into zone.js
+| 05.10.2019 | [DevFestSofia](https://devfest.bg/) | Deep dive into zone.js | Coming Soon | Coming Soon
