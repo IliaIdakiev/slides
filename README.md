@@ -33,3 +33,5 @@
 | 01.08.2019 | [BeerJS Summit](https://www.facebook.com/events/335809237260372/) | RxJS Schedulers | [View](https://www.slideshare.net/IliaIdakiev/rxjs-schedulers-controlling-time) | [Click here](https://github.com/IliaIdakiev/slides/tree/master/demos/rxjs_schedulers)
 | 25.09.2019 | [Angular Air](https://angularair.com/) | Persistent State Management using Query Params | Coming Soon | Coming Soon
 | 05.10.2019 | [DevFestSofia](https://devfest.bg/) | Deep dive into zone.js | Coming Soon | Coming Soon
+| 22.10.2019 | [DevReach](https://www.telerik.com/devreach) | NGRX - Predictable Reactive State Management for Enterprise Angular Apps | Coming Soon | Coming Soon
+| 23.11.2019 | [JSTalks](http://www.jstalks.net/) | Applications of category theory in JavaScript | Coming Soon | Coming Soon
