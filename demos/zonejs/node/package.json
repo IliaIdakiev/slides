@@ -1,0 +1,12 @@
+{
+  "name": "zonejs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "zone.js": "^0.10.2"
+  },
+  "devDependencies": {
+    "@types/node": "^12.7.9"
+  }
+}
