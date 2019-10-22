@@ -1,0 +1,8 @@
+<ng-template #list let-users>
+  <ul>
+    <li *ngFor="let user of users">{{user.name}}</li>
+  </ul>
+</ng-template>
+<ng-template #loading>Loading...</ng-template>
+<ng-container *ngTemplateOutlet="(isLoaded$ | async) ? list : loading; context: { $implicit: users$ | async }">
+</ng-container>
