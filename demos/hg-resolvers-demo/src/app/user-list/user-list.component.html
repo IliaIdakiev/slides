@@ -1,0 +1,205 @@
+<!-- <h1>1. Quick Resolver</h1>
+<button (click)="userListResolver.resolve()">Load/Reload</button>
+<div appUserListResolver #userListResolver="appUserListResolver">
+  <div *ngIf="!userListResolver.isResolved">Loading</div>
+  <div *ngIf="userListResolver.isResolvedSuccessfully">{{userListResolver.data$ | async | json }}
+  </div>
+  <div *ngIf="userListResolver.isErrored">Error {{userListResolver.error}}</div>
+</div> -->
+
+
+
+<!-- <h2>2. Container with single resolver</h2>
+<ng-template #loader let-showLoading>
+  <div *ngIf="showLoading">Loading...</div>
+</ng-template>
+<ng-template #error let-isErrored let-errors="errors">
+  <div *ngIf="isErrored">{{errors}}</div>
+</ng-template>
+
+<hg-resolve appUserListResolver [resolveOnInit]="true" #userListResolver="appUserListResolver"
+  [loaderTemplateRef]="loader" [errorTemplateRef]="error">
+  {{userListResolver.data$ | async | json}}
+</hg-resolve> -->
+
+
+
+
+<!-- <h2>3. Container with multiple resolvers</h2>
+<ng-template #loader let-showLoading>
+  <div *ngIf="showLoading">Loading...</div>
+</ng-template>
+<ng-template #error let-isErrored let-errors="errors">
+  <div *ngIf="isErrored">{{errors}}</div>
+</ng-template>
+
+<hg-resolve appUserListResolver [resolveOnInit]="true" appPostListResolver #userListResolver="appUserListResolver"
+  #postListResolver="appPostListResolver" [loaderTemplateRef]="loader" [errorTemplateRef]="error">
+  <h2>Users</h2>
+  {{userListResolver.data$ | async | json}}
+  <h2>Posts</h2>
+  {{postListResolver.data$ | async | json }}
+</hg-resolve> -->
+
+<!-- 
+<h3>4. Container with Controlled Resolvers + Refresh Buttons</h3>
+<ng-template #loader let-showLoading>
+  <div *ngIf="showLoading">Loading...</div>
+</ng-template>
+<ng-template #error let-isErrored let-errors="errors">
+  <div *ngIf="isErrored">{{errors}}</div>
+</ng-template>
+
+<button (click)="resolve.refresh$.next()">Re-Fetch All</button>
+<button (click)="postListResolver.resolve()">Re-Fetch Posts</button>
+<hg-resolve #resolve="hgResolve" appUserListResolver appPostListResolver #userListResolver="appUserListResolver"
+  #postListResolver="appPostListResolver" [loaderTemplateRef]="loader" [errorTemplateRef]="error"
+  [resolveOnInit]="true">
+  <h2>Users</h2>
+  {{userListResolver.data$ | async | json}}
+  <h2>Posts</h2>
+  {{postListResolver.data$ | async | json }}
+</hg-resolve> -->
+
+
+
+<!-- <h3>5. Container with Controlled Resolvers + Dependant Resolver</h3>
+<ng-template #loader let-showLoading>
+  <div *ngIf="showLoading">Loading...</div>
+</ng-template>
+<ng-template #error let-isErrored let-errors="errors">
+  <div *ngIf="isErrored">{{errors}}</div>
+</ng-template>
+
+<button (click)="resolve.refresh$.next()">Re-Fetch All</button>
+<input type="number" #idInput><button (click)="selectedUserId = idInput.value">Select</button>
+Don't forget to set AutoResolve on userPostsResolver because otherwise you have to call it explicitly
+<hg-resolve #resolve="hgResolve" [resolveOnInit]="true" appUserListResolver [appUserPostsResolver]="!selectedUserId"
+  [selectedUserId]="selectedUserId" #userListResolver="appUserListResolver" #userPostsResolver="appUserPostsResolver"
+  [loaderTemplateRef]="loader" [errorTemplateRef]="error" [resolveOnInit]="true">
+  <h2>Users</h2>
+  {{userListResolver.data$ | async | json}}
+  <ng-container *ngIf="userPostsResolver.data$ | async as userPosts">
+    <h2>User Posts</h2>
+    {{userPosts | json }}
+  </ng-container>
+</hg-resolve> -->
+
+
+<!-- <h3>6. Attaching Resolvers</h3>
+<ng-template #loader let-showLoading>
+  <div *ngIf="showLoading">Loading...</div>
+</ng-template>
+<ng-template #error let-isErrored let-errors="errors">
+  <div *ngIf="isErrored">{{errors}}</div>
+</ng-template>
+
+<button (click)="resolve.refresh$.next()">Re-Fetch All</button>
+<input type="number" #idInput><button (click)="selectedUserId = idInput.value">Select</button>
+Don't forget to set AutoResolve on userPostsResolver because otherwise you have to call it explicitly
+<hg-resolve #resolve="hgResolve" appUserListResolver #userListResolver="appUserListResolver"
+  [loaderTemplateRef]="loader" [errorTemplateRef]="error" [resolveOnInit]="true">
+  <h2>Users</h2>
+  {{userListResolver.data$ | async | json}}
+
+  You can use this for attaching directives dynamically based on ngIf / ngSwitch / ngFor
+
+  <ng-container hgResolveAttach [appUserPostsResolver]="!selectedUserId" [selectedUserId]="selectedUserId"
+    #userPostsResolver="appUserPostsResolver">
+    <ng-container *ngIf="userPostsResolver.data$ | async as userPosts">
+      <h2>User Posts</h2>
+      {{userPosts | json }}
+    </ng-container>
+  </ng-container>
+</hg-resolve> -->
+
+<!-- 
+<h3>6. Attaching Resolvers with unique ids</h3>
+<ng-template #loader let-showLoading>
+  <div *ngIf="showLoading">Loading...</div>
+</ng-template>
+<ng-template #error let-isErrored let-errors="errors">
+  <div *ngIf="isErrored">{{errors}}</div>
+</ng-template>
+
+<button (click)="resolve.refresh$.next()">Re-Fetch All</button>
+<input type="number" #idInput><button (click)="selectedUserId = idInput.value">Select</button>
+Don't forget to set AutoResolve on userPostsResolver because otherwise you have to call it explicitly
+<hg-resolve #resolve="hgResolve" appUserListResolver #userListResolver="appUserListResolver"
+  [loaderTemplateRef]="loader" [errorTemplateRef]="error" [resolveOnInit]="true">
+  <h2>Users</h2>
+  {{userListResolver.data$ | async | json}}
+
+  <p>You can use hgResolveAttach for attaching directives dynamically based on ngIf / ngSwitch / ngFor</p>
+  <p>By using autoUniqueId = true you "connect" multiple directives of the same type so only one call is dispatched</p>
+
+  <ng-container hgResolveAttach [appUserPostsResolver]="!selectedUserId" [selectedUserId]="selectedUserId"
+    #userPostsResolver="appUserPostsResolver">
+    <ng-container *ngIf="userPostsResolver.data$ | async as userPosts">
+      <h2>User Posts Count</h2>
+      {{userPosts.length}}
+    </ng-container>
+  </ng-container>
+
+  <ng-container hgResolveAttach [appUserPostsResolver]="!selectedUserId" [selectedUserId]="selectedUserId"
+    #userPostsResolver="appUserPostsResolver">
+    <ng-container *ngIf="userPostsResolver.data$ | async as userPosts">
+      <h2>User Posts</h2>
+      {{userPosts | json }}
+    </ng-container>
+    <button (click)="userPostsResolver.resolve()">Reload</button>
+  </ng-container>
+</hg-resolve>
+-->
+
+<h3>7. Making things pretty </h3>
+<ng-template #error let-isErrored let-errors="errors">
+  <div *ngIf="errors[0]" style="color: red;">Error loading users!</div>
+</ng-template>
+
+
+<button (click)="resolve.refresh$.next()">Re-Fetch All</button>
+<input type="number" #idInput><button (click)="selectedUserId = idInput.value">Select</button>
+{{(!resolve.isResolvedSuccessfully && !resolve.isErrored)| json}}
+{{(!userPostsResolver.shouldSkip && (!userPostsResolver.isResolvedSuccessfully || !userPostsResolver.isErrored))}}
+{{!userPostsResolver.isResolvedSuccessfully && !userPostsResolver.isErrored}}
+<div *ngIf="
+  (!resolve.isResolvedSuccessfully && !resolve.isErrored) || 
+  (!userPostsResolver.shouldSkip && (!userPostsResolver.isResolvedSuccessfully && !userPostsResolver.isErrored))">
+  Spinner...</div>
+<div>Don't forget to set AutoResolve on userPostsResolver because otherwise you have to call it explicitly</div>
+<hg-resolve #resolve="hgResolve" appUserListResolver #userListResolver="appUserListResolver" [errorTemplateRef]="error"
+  [resolveOnInit]="true" [hideContentUntilResolvedSuccessfully]="false">
+  <div *ngIf="userListResolver.isResolvedSuccessfully">
+    <h2>Users</h2>
+    {{userListResolver.data$ | async | json}}
+  </div>
+  <div *ngIf="!userListResolver.isResolvedSuccessfully && !resolve.isErrored">Loading Users...</div>
+
+  <p>You can use hgResolveAttach for attaching directives dynamically based on ngIf / ngSwitch / ngFor</p>
+  <p>By using autoUniqueId = true you "connect" multiple directives of the same type so only one call is dispatched</p>
+
+  <div *ngIf="selectedUserId && !userPostsResolver.isResolvedSuccessfully && !userPostsResolver.isErrored">Loading User
+    Posts...
+  </div>
+  <ng-container hgResolveAttach #userPostsResolver="appUserPostsResolver" [appUserPostsResolver]="!selectedUserId"
+    [selectedUserId]="selectedUserId" #userPostsResolver="appUserPostsResolver">
+    <ng-container *ngIf="userPostsResolver.data$ | async as userPosts">
+      <h2>User Posts Count</h2>
+      {{userPosts.length}}
+    </ng-container>
+  </ng-container>
+
+  <p>We can use the template reference variable from the above resolver in this case instead of using the resolve attach
+    directive but if we have the option to
+    individually show and hide boxes and there is no way of knowing if there is a box visible that has the resolve
+    directive the attach directive is very useful</p>
+  <ng-container hgResolveAttach [appUserPostsResolver]="!selectedUserId" [selectedUserId]="selectedUserId"
+    #userPostsResolver="appUserPostsResolver">
+    <ng-container *ngIf="userPostsResolver.data$ | async as userPosts">
+      <h2>User Posts</h2>
+      {{userPosts | json }}
+      <button (click)="userPostsResolver.resolve()">Reload</button>
+    </ng-container>
+  </ng-container>
+</hg-resolve>
